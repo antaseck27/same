@@ -1,0 +1,53 @@
+.image{
+    display: grid;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(246, 244, 241);
+}
+
+.titre{
+padding: 100px 0;
+background-size: cover;
+background-position: center;
+}
+
+.image{
+display: grid;
+grid-template-columns:400px 400px 400px  ;
+grid-template-rows: 290px 290px 290px;
+gap: 20px;
+
+}
+
+
+img
+{ 
+    width: 400px;
+    height: 300PX;
+}
+
+section∑
+{
+    display: grid;
+grid-template-columns:100px 250px 250px 259px 250px ;
+grid-template-rows: 150px 300px;
+gap: 20px;
+
+
+}
+
+.TEST{
+    border: solid;
+    width: 400PX;
+}
+.nature:hover{
+    scale: 1.2;
+}
+.nat1:hover{
+    transform: scaleX(1.2);
+
+}
+.nat2:hover{
+    transform: translateX(15px);
+}
